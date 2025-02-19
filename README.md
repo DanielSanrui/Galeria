@@ -9,8 +9,8 @@ Este proyecto consiste en una galería de imágenes responsiva. Se han utilizado
 
 ## Funcionalidades
 - **Diseño responsivo** para adaptarse a distintos tamaños de pantalla.
-- **Imágenes organizadas** en una cuadrícula visualmente atractiva.
-- **Efectos de transición** para mejorar la experiencia del usuario.
+- **Imágenes organizadas** en una cuadrícula de 3x3.
+- **Apertura de una modal** para ver la imágen mejor y leer una pequeña descripción sobre esta.
 
 ## Despliegue
 La página está desplegada y accesible en el siguiente enlace: [Galería de Imágenes](https://danielsanrui.github.io/Galeria/)
