@@ -1,16 +1,18 @@
-Galería de Imágenes
+# Galería de Imágenes
 
-Este proyecto consiste en una galería de imágenes responsiva. Se han utilizado 9 fotos distintas para componer la galería, asegurando un diseño atractivo y funcional en distintos dispositivos.
+Este proyecto consiste en una galería de imágenes responsiva. Se han utilizado **9 fotos distintas** para componer la galería, asegurando un diseño atractivo y funcional en distintos dispositivos.
 
-Tecnologías utilizadas
+## Tecnologías utilizadas
+- **HTML**
+- **CSS**
+- **JavaScript**
 
-HTML
+## Funcionalidades
+- **Diseño responsivo** para adaptarse a distintos tamaños de pantalla.
+- **Imágenes organizadas** en una cuadrícula visualmente atractiva.
+- **Efectos de transición** para mejorar la experiencia del usuario.
 
-CSS
+## Despliegue
+La página está desplegada y accesible en el siguiente enlace: [Galería de Imágenes](https://danielsanrui.github.io/Galeria/)
 
-JavaScript
 
-Despliegue
-
-La página está desplegada y accesible en el siguiente enlace:
-Galería de Imágenes
