@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes Responsiva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        Galería de Imágenes
+    </header>
+    <div class="gallery">
+        <picture>
+            <source srcset="output-adv/alcazar-1280.jpg 2x, output-adv/alcazar-640.jpg 1x" media="(min-width: 800px)">
+            <source srcset="output-adv/alcazar-640.jpg 2x, output-adv/alcazar-320.jpg 1x" media="(min-width: 400px)">
+            <img src="output-adv/alcazar-320.jpg" alt="Fuente del Alcazar de Sevilla" class="gallery-item"
+                data-full="input/alcazar.jpg">
+        </picture>
+        <picture>
+            <source srcset="output-adv/Catedral-1280.jpg 2x, output-adv/Catedral-640.jpg 1x" media="(min-width: 800px)">
+            <source srcset="output-adv/Catedral-640.jpg 2x, output-adv/Catedral-320.jpg 1x" media="(min-width: 400px)">
+            <img src="output-adv/Catedral-320.jpg" alt="Catedral de Sevilla vista desde el Puente de Triana"
+                class="gallery-item" data-full="input/Catedral.jpg">
+        </picture>
+        <picture>
+            <source srcset="output-adv/Toledo-1280.jpg 2x, output-adv/Toledo-640.jpg 1x" media="(min-width: 800px)">
+            <source srcset="output-adv/Toledo-640.jpg 2x, output-adv/Toledo-320.jpg 1x" media="(min-width: 400px)">
+            <img src="output-adv/Toledo-320.jpg" alt="La catedral de Toledo entre dos edificios" class="gallery-item"
+                data-full="input/Toledo.jpg">
+        </picture>
+        <picture>
+            <source srcset="output-adv/cristo-1280.jpg 2x, output-adv/cristo-640.jpg 1x" media="(min-width: 800px)">
+            <source srcset="output-adv/cristo-640.jpg 2x, output-adv/cristo-320.jpg 1x" media="(min-width: 400px)">
+            <img src="output-adv/cristo-320.jpg"
+                alt="Cristo Atado a la columna de la Hermandad de las Cigarreras de Sevilla" class="gallery-item"
+                data-full="input/cristo.jpg">
+        </picture>
+        <picture>
+            <source srcset="output-adv/Plaza España-1280.jpg 2x, output-adv/Plaza España-640.jpg 1x"
+                media="(min-width: 800px)">
+            <source srcset="output-adv/Plaza España-640.jpg 2x, output-adv/Plaza España-320.jpg 1x"
+                media="(min-width: 400px)">
+            <img src="output-adv/Plaza España-320.jpg" alt="Plaza de España de Sevilla" class="gallery-item"
+                data-full="input/Plaza España.jpg">
+        </picture>
+
+        <picture>
+            <source srcset="output-adv/tennis-1280.jpg 2x, output-adv/tennis-640.jpg 1x" media="(min-width: 800px)">
+            <source srcset="output-adv/tennis-640.jpg 2x, output-adv/tennis-320.jpg 1x" media="(min-width: 400px)">
+            <img src="output-adv/tennis-320.jpg" alt="Tenis en tierra batida" class="gallery-item"
+                data-full="input/tennis.jpg">
+        </picture>
+        <picture>
+            <source srcset="output-adv/pyramids-1280.jpg 2x, output-adv/pyramids-640.jpg 1x" media="(min-width: 800px)">
+            <source srcset="output-adv/pyramids-640.jpg 2x, output-adv/pyramids-320.jpg 1x" media="(min-width: 400px)">
+            <img src="output-adv/pyramids-320.jpg" alt="Las piramides de Egipto" class="gallery-item"
+                data-full="input/pyramids.jpg">
+        </picture>
+        <picture>
+            <source srcset="output-adv/torero-1280.jpg 2x, output-adv/torero-640.jpg 1x" media="(min-width: 800px)">
+            <source srcset="output-adv/torero-640.jpg 2x, output-adv/torero-320.jpg 1x" media="(min-width: 400px)">
+            <img src="output-adv/torero-320.jpg" alt="Un torero dando un pase" class="gallery-item"
+                data-full="input/torero.jpg">
+        </picture>
+        <picture>
+            <source srcset="output-adv/vicente calderón-1280.jpg 2x, output-adv/vicente calderón-640.jpg 1x"
+                media="(min-width: 800px)">
+            <source srcset="output-adv/vicente calderón-640.jpg 2x, output-adv/vicente calderón-320.jpg 1x"
+                media="(min-width: 400px)">
+            <img src="output-adv/vicente calderón-320.jpg" alt="Vista del estadio Vicente Calderón desde arriba"
+                class="gallery-item" data-full="input/vicente calderón.jpg">
+        </picture>
+    </div>
+
+    <div id="modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption" class="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
